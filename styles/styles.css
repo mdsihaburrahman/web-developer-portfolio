@@ -1,30 +1,29 @@
-
-
 .open-sans-normal {
-  font-family: "Open Sans", serif;
-  font-optical-sizing: auto;
-  font-weight:normal;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 /* shared style */
 
-.secondary-bg{
+.secondary-bg {
     background-color: #FFF8F3;
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 }
 
-.dark-2{
+.dark-2 {
     color: #474747;
 }
 
 
 /* make button */
-.btn-primary{
+.btn-primary {
     background-color: #FD6E0A;
     font-weight: bold;
     font-size: 20px;
@@ -33,24 +32,27 @@
     border-radius: 5px;
     border: none;
 }
+
 /* shared */
-.section-title{
+.section-title {
     font-size: 35px;
     font-weight: bold;
     color: #181818;
 }
-.section-descriprtion{
+
+.section-descriprtion {
     font-size: 18px;
     color: #757575;
     border-top: 30px;
     border-bottom: 30px;
 }
+
 /* header */
 
-.header{
-    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+.header {
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: top left,bottom right;
+    background-position: top left, bottom right;
 }
 
 /* nav styles */
@@ -61,52 +63,54 @@ nav {
     margin: 0px 200px;
 }
 
-.nav-title{
+.nav-title {
     font-weight: 800;
     font-size: 45px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     align-items: center;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
     margin-right: 51px;
-    
+
 }
 
-nav li a{
+nav li a {
     text-decoration: none;
     font-size: 20px;
 }
 
 /* banner styles */
 
-.banner-greetings{
+.banner-greetings {
     font-size: 45px;
     font-weight: 600px;
     margin-top: 175px;
 
 }
-.banner{
+
+.banner {
     display: flex;
     justify-content: space-between;
     margin: 0 35px 0 200px;
 }
-.banner-contant{
+
+.banner-contant {
     width: 585px;
 }
 
-.banner-title{
+.banner-title {
     font-weight: bold;
     font-size: 85px;
     margin-top: 5px;
     margin-bottom: 20px;
 }
 
-.banner-description{
+.banner-description {
     font-size: 18px;
     color: #757575;
     position: 226px 489px;
@@ -114,39 +118,64 @@ nav li a{
     width: 585px;
     margin-top: 0px;
     margin-bottom: 23px;
-    
+
 }
-.banner-profile-pic{
+
+.text-center {
+    text-align: center;
+}
+
+.banner-profile-pic {
     width: 580px;
 }
+
 /* main styles */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
 /* about styles */
-.about{
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.about {
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+    
 }
-.about-items{
+
+.about-items {
     display: flex;
     justify-content: space-around;
 }
-.item-description{
+
+.item-description {
     font-weight: 600;
     border-top: 0px;
 }
-.creat-me{
+/* creat me */
+
+.creat-me {
     max-width: 827px;
     margin: 0 auto;
     background-color: #FFFFFF;
 }
-.item-title{
+
+.item-title {
     background-color: #FFFFFF;
     border-bottom: 0px;
     padding-top: 0;
+}
+/* skills section styles */
+.skills-container{
+    display: flex;
+    gap:24px
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
